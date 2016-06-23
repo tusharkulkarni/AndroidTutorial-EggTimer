@@ -27,4 +27,24 @@
         android:layout_below="@+id/timerSeekBar"
         android:layout_centerHorizontal="true"
         android:src="@drawable/egg" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:30"
+        android:id="@+id/timerText"
+        android:layout_marginBottom="197dp"
+        android:textSize="70sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go"
+        android:id="@+id/controllerButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="110dp"
+        android:onClick="controlTimer" />
 </RelativeLayout>
